@@ -1,0 +1,38 @@
+#heading{
+    border: solid black;
+    text-align: center;
+    background-color: aqua;
+    margin-bottom: 40px;
+}
+
+#formPage{
+    border-width: 400px;
+    border: double #000000;
+    padding: 20px;
+    font-size: x-large;
+}
+
+#productSum{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#sub-btn{
+      border-radius: 20px;
+      background-color: rgb(186, 188, 218);
+      font-size: x-large;
+      border: none;
+      
+}
+
+.btn{
+    border-radius: 10px;
+    background-color: burlywood;
+    font-size: large;
+}
+
+.pblock-div{
+    font-size: larger;
+}
+
+

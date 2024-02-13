@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Admin Page</title>
+    <link rel="stylesheet" href="sellerAdmin.css">
+    
+</head>
+<body>
+    <div id="heading">
+        <h1>SELLER ADMIN</h1>
+    </div>
+    <div id="formPage">
+    <form id="sellingPage">
+        <lable for="price">Selling Price: </lable>
+        <input type="number" id="price" required>
+
+        <label for="pName">Product Name: </label>
+        <input type="text" id="pName" required>
+
+        <button type="submit" class="btn btn-primary" id="sub-btn">Add Product</button>
+    </form>
+</div>
+
+    <h2 id="pheading">Products</h2>
+    <ul id="ulist"></ul>
+    <div id="productSum"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js" integrity="sha512-NQfB/bDaB8kaSXF8E77JjhHG5PM6XVRxvHzkZiwl3ddWCEPBa23T76MuWSwAJdMGJnmQqM0VeY9kFszsrBEFrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="sellerAdmin.js"></script>
+</body>
+</html>
